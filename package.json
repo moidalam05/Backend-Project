@@ -2,11 +2,18 @@
   "name": "full-stack-project",
   "version": "1.0.0",
   "description": "A full stack Youtube clone project",
+  "type": "module",
   "main": "index.js",
-  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
   "author": "Moid Alam",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
